@@ -1,0 +1,17 @@
+version = "1.0"
+
+[metadata]
+name = "collinear-candidate/model-regression-verification"
+author_name = "Kevin Nguyen"
+author_email = "ktnguyen@engineering.upenn.edu"
+
+[agent]
+timeout_sec = 600.0
+
+[environment]
+build_timeout_sec = 600.0
+network = "none"
+workdir = "/app"
+
+[verifier]
+timeout_sec = 600.0
