@@ -60,3 +60,6 @@ The verifier at `tests/` yields a binary reward (1.0 for all conditions met, els
 - **All-or-nothing reward**: no partial credit for finding a subset of the
   confounds, so scores don't distinguish "missed one confound" from "did nothing."
 - **Simple data**: answer styles are three simple exact templates; the patch to `/app/repo/score.py` can be found with one command.
+
+## Additional Notes
+Everything in this repository was created from scratch for this task.
